@@ -65,10 +65,14 @@ on:
         required: false
         default: true
         type: boolean
+      kernel_sign:
+        description: "Set the kernel custom signature"
+        required: false
+        default: "-alkhanet"
       openwrt_size:
         description: "Set the rootfs size(Unit: MiB)."
         required: false
-        default: "960"
+        default: "512"
 
 env:
   TZ: Asia/Jakarta
