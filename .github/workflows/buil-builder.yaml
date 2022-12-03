@@ -14,17 +14,18 @@ on:
       branch:
         description: "Select the releases branch"
         required: false
-        default: "22.03.2"
+        default: "22.03.0"
         type: choice
         options:
           - 22.03.2
+          - 22.03.1
           - 21.02.5
           - 19.07.10
           - 18.06.9
       openwrt_board:
         description: "Select Amlogic board"
         required: false
-        default: "s905x3_s905d_s912"
+        default: "s905x"
         type: choice
         options:
           - all
