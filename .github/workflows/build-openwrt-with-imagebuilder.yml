@@ -14,17 +14,17 @@ on:
       branch:
         description: "Select the releases branch"
         required: false
-        default: "22.03.2"
+        default: "22.03.3"
         type: choice
         options:
-          - 22.03.2
+          - 22.03.3
           - 21.02.5
           - 19.07.10
           - 18.06.9
       openwrt_board:
         description: "Select Amlogic board"
         required: false
-        default: "s905x3_s905d_s912"
+        default: "s905x"
         type: choice
         options:
           - all
@@ -49,7 +49,7 @@ on:
       openwrt_kernel:
         description: "Select kernel version"
         required: false
-        default: "5.15.85_6.1.1"
+        default: "5.15.85"
         type: choice
         options:
           - 5.4.225_5.10.160_5.15.85
@@ -75,7 +75,7 @@ on:
         default: "1024"
 
 env:
-  TZ: America/New_York
+  TZ: Asia/Jakarta
   IMAGEBUILDER_SH: router-config/openwrt-imagebuilder/imagebuilder.sh
 
 jobs:
