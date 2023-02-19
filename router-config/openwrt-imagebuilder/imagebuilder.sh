@@ -179,7 +179,7 @@ rebuild_firmware() {
                 kmod-fs-btrfs kmod-mac80211 wireless-tools wpa-cli wpa-supplicant luci-proto-3g \
                 usbutils usb-modeswitch kmod-usb-net-rndis kmod-usb-net-cdc-ether ttyd wwan unzip uqmi \
                 luci-app-amlogic luci-theme-material luci-app-ttyd openssh-sftp-server lftp \
-                \
+                kmod-usb-net-qmi-wwan kmod-usb-serial-wwan perl perlbase-base \
         ${config_list} \
         "
 
